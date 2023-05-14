@@ -1,0 +1,11 @@
+footer{
+    color: rgb(0, 179, 255);
+    margin-top: 60px;
+}
+footer p{
+    margin-top: 5px;
+    text-align: center;
+}
+footer a{
+    color:var(--yellow);
+}
