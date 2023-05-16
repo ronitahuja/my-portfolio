@@ -37,16 +37,15 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        "service_tn01s1a","template_2rvkvbf",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Ronit Ahuja",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "ahujaronit321@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        "JJPbZiSFbh_V3BRGH"
       )
       .then(
         () => {
@@ -127,7 +126,7 @@ const Contact = () => {
           <div className="flex justify-center" style={{gap:'10px'}}>
           <motion.a whileHover={{scale:1.3}} target="_blank" href="https://www.linkedin.com/in/ronit-ahuja-622887255/"><FontAwesomeIcon icon={faLinkedin} href="https://github.com/ronitahuja" className="cursor-pointer" size="2x"/></motion.a>
             <motion.a   whileHover={{scale:1.3}} target="_blank" href="https://github.com/ronitahuja"><FontAwesomeIcon icon={faGithub} href="https://github.com/ronitahuja" className="cursor-pointer" size="2x"/></motion.a>
-            <motion.a whileHover={{scale:1.3}} title="ahujaronit321@gmail.com"><FontAwesomeIcon icon={faEnvelope} className="cursor-pointer" size="2x"/></motion.a>
+            <motion.a whileHover={{scale:1.3}} title="ahujaronit321@gmail.com" href="mailto:ahujaronit321@gmail.com" target="_blank"><FontAwesomeIcon icon={faEnvelope} className="cursor-pointer" size="2x"/></motion.a>
           </div>
         </form>
       </motion.div>
