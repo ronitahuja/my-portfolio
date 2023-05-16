@@ -7,11 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import mysql from "./tech/mysql.jpg"
+import mysql from "./tech/mysql.png"
 import python from "./tech/python.png"
-import java from "./tech/java.jpg"
-import c from "./tech/c.jpg"
-import unity from "./tech/unity.jpg"
+import java from "./tech/java.png"
+import c from "./tech/c.png"
+import unity from "./tech/unity.png"
 import css from "./tech/css.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
